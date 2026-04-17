@@ -32,10 +32,10 @@ nmap -A 192.168.1.1
 Note: Sample results are used for demonstration purposes.
 
 Sample Findings:
-- Port      -  State       - Service         Version
-  - 22          - open       - SSH            OpenSSH 7.6
--  80          - open        - HTTP           Apache 2.4
--  443         - open        - HTTPS           Nginx 
+- Port       - State       -  Service        -  Version
+  - 22        - open       -  SSH           -  OpenSSH 7.6
+-  80         - open        -  HTTP          -  Apache 2.4
+-  443        - open        -  HTTPS         -   Nginx 
 
 # Analysis
 Port 22 (SSH)- Remote access service; potential target for brute-force attacks
