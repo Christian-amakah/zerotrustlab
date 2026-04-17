@@ -11,13 +11,13 @@ Example:
 If the application does not sanitize input, this script will execute in the browser of any user who views the page.
 
 # Types of XSS
-Stored XSS:
+- Stored XSS:
 Malicious script is saved on the server (e.g., in a database) and served to users later.
 
-Reflected XSS:
+- Reflected XSS:
 Script is reflected off a web server (e.g., via URL parameters) and executed immediately.
 
-DOM-Based XSS:
+- DOM-Based XSS:
 The vulnerability exists in client-side JavaScript rather than the server.
 
 # Impact Analysis
