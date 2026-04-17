@@ -12,10 +12,13 @@ Shell- Interface for interacting with the system via commands
 
 # Essential Commands
 *Navigation*
-pwd
-ls
-cd
- pwd- Shows current directory
+pwd,
+
+ls,
+
+cd.
+
+ pwd- Shows current directory,
  ls- Lists files and directories
  cd- Changes directory 
 
