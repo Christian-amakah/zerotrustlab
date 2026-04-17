@@ -17,47 +17,47 @@ SELECT * FROM users WHERE username = '' OR '1'='1' AND password = '';
 Since '1'='1' is always true, the query may return valid results, allowing authentication bypass.
 
 # Attack Scenario
-Target: Login page with weak input validation
-Method: Inject SQL payload into username field
+- Target: Login page with weak input validation
+- Method: Inject SQL payload into username field
 
 Steps:
-Attacker enters ' OR '1'='1 as username
-Leaves password blank or random
-Application processes input without sanitization
-Database returns a valid user
-Attacker gains unauthorized access
+- Attacker enters ' OR '1'='1 as username
+- Leaves password blank or random
+- Application processes input without sanitization
+- Database returns a valid user
+- Attacker gains unauthorized access
 
 # Impact Analysis
 SQL Injection can result in:
 
-Unauthorized authentication bypass
-Exposure of sensitive data (user credentials, financial records)
-Data manipulation or deletion
-Privilege escalation
-Complete database takeover
+- Unauthorized authentication bypass
+- Exposure of sensitive data (user credentials, financial records)
+- Data manipulation or deletion
+- Privilege escalation
+- Complete database takeover
 
 # Ways you can Prevent
 To prevent SQL Injection, developers should:
 
-Use prepared statements (parameterized queries)
-Implement strict input validation and sanitization
-Apply least privilege principle to database accounts
-Use ORM frameworks that handle queries securely
-Deploy Web Application Firewalls (WAF)
+- Use prepared statements (parameterized queries)
+- Implement strict input validation and sanitization
+- Apply least privilege principle to database accounts
+- Use ORM frameworks that handle queries securely
+- Deploy Web Application Firewalls (WAF)
 
 # How to Detect
 You can identify SQL injection vulnerabilities by using:
 
-Manual testing with payloads
-Automated tools (e.g., SQLmap)
-Code review for unsafe query construction
-Monitoring unusual database queries
+- Manual testing with payloads
+- Automated tools (e.g., SQLmap)
+- Code review for unsafe query construction
+- Monitoring unusual database queries
 
 # NOTE
-SQL Injection exploits improper input handling
-It remains a top web security risk globally
-Prevention requires secure coding practices and proper validation
-Detection involves both manual and automated approaches
+- SQL Injection exploits improper input handling
+- It remains one of the top web security risk globally
+- Prevention requires secure coding practices and proper validation
+- Detection involves both manual and automated approaches
 
 # References
 OWASP Top 10 – Injection Vulnerabilities    
