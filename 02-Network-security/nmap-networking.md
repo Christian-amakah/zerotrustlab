@@ -31,32 +31,32 @@ nmap -A 192.168.1.1
 
 Note: Sample results are used for demonstration purposes.
 
-Sample Findings:
-- Port       - State       -  Service        -  Version
-  - 22        - open       -  SSH           -  OpenSSH 7.6
--  80         - open        -  HTTP          -  Apache 2.4
--  443        - open        -  HTTPS         -   Nginx 
+# Sample Findings:
+- Port       - State       - Service        -  Version
+- 22         - open        -  SSH           -  OpenSSH 7.6
+-  80        - open        -  HTTP          -  Apache 2.4
+-  443       - open        -  HTTPS         -   Nginx 
 
 # Analysis
-Port 22 (SSH)- Remote access service; potential target for brute-force attacks
-Port 80 (HTTP)-Web server, possible exposure to vulnerabilities like XSS or SQL Injection
-Port 443 (HTTPS)- Encrypted service, should be checked for SSL/TLS misconfiguration
+- Port 22 (SSH)- Remote access service; potential target for brute-force attacks
+- Port 80 (HTTP)-Web server, possible exposure to vulnerabilities like XSS or SQL Injection
+- Port 443 (HTTPS)- Encrypted service, should be checked for SSL/TLS misconfiguration
 
 # Security Implications
-Open ports increase attack surface
-Exposed services may contain vulnerabilities
-Misconfigurations can lead to unauthorized access
+- Open ports increase attack surface
+- Exposed services may contain vulnerabilities
+- Misconfigurations can lead to unauthorized access
 
 # Recommendations
-Restrict access to sensitive ports (e.g., SSH)
-Keep services updated and patched
-Use firewalls to limit exposure
-Monitor network traffic for suspicious activity
+- Restrict access to sensitive ports (e.g., SSH)
+- Keep services updated and patched
+- Use firewalls to limit exposure
+- Monitor network traffic for suspicious activity
 
 # NOTE
-Nmap is essential for reconnaissance and enumeration
-It reveals critical information about target systems
-Understanding scan results is as important as running the scan.
+- Nmap is essential for reconnaissance and enumeration
+- It reveals critical information about target systems
+- Understanding scan results is as important as running the scan.
 
 # References
 Nmap Official Documentation
