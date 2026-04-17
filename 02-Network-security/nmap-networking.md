@@ -6,28 +6,28 @@ It helps identify active hosts, open ports, running services, and potential vuln
 To understand how Nmap is used in real-world scenarios for reconnaissance and to analyze
 exposed services from a security perspective.
 
-# Key concepts
-Port Communication endpoint (e.g., 80 for HTTP)
-Open Port Accepting connections
-Closed Port No active service
-Filtered PortBlocked by firewall
+# Key Note
+- Port Communication endpoint (e.g., 80 for HTTP)
+- Open Port Accepting connections
+- Closed Port No active service
+- Filtered Port Blocked by firewall
 
 # Common Commands
-Basic scan
+- Basic scan:
 nmap 192.168.1.1
 
-Service version Detection
+- Service version Detection:
 nmap -sV 192.168.1.1
 
-OS Detection
+- OS Detection:
 nmap -o 192.168.1.1
 
-Aggressive Scan
+- Aggressive Scan:
 nmap -A 192.168.1.1
 
 # Scan Scenario
-Target: Local test environment (e.g., 192.168.1.1)
-Purpose: Identify open ports and running services
+- Target: Local test environment (e.g., 192.168.1.1)
+- Purpose: Identify open ports and running services
 
 Note: Sample results are used for demonstration purposes.
 
