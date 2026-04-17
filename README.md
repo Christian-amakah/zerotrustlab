@@ -1,7 +1,7 @@
 # About Me:
 I am building practical cybersecurity skills in network security, ethical hacking, and defensive analysis through hands on learning and research.
 
-# What This Repository Contains:
+## What This Repository Contains:
 **cybersecurity research and notes/**
 **Hands-on labs and writeups/**
 **Security tools and command usage/**
