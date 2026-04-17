@@ -23,33 +23,34 @@ The vulnerability exists in client-side JavaScript rather than the server.
 # Impact Analysis
 XSS attacks can lead to:
 
-Theft of session cookies
-Account hijacking
-Unauthorized actions on behalf of users
-Defacement of web pages
-Redirection to malicious websites
+- Theft of session cookies
+- Account hijacking
+- Unauthorized actions on behalf of users
+- Defacement of web pages
+- Redirection to malicious websites
 
 # How/ways to Prevent 
 To prevent XSS vulnerabilities:
 
-Validate and sanitize all user input
-Encode output before rendering in the browser
-Use Content Security Policy (CSP)
-Avoid directly inserting user input into HTML/JavaScript
-Use secure frameworks that automatically escape output
+- Validate and sanitize all user input
+- Encode output before rendering in the browser
+- Use Content Security Policy (CSP)
+- Avoid directly inserting user input into HTML/JavaScript
+- Use secure frameworks that automatically escape output
 
 # How to Detect
 You can detect XSS attacks using:
-Manual testing with payloads
-Browser developer tools
-Automated scanners (e.g., Burp Suite)
-Reviewing application code for unsafe DOM manipulation
+
+- Manual testing with payloads
+- Browser developer tools
+- Automated scanners (e.g., Burp Suite)
+- Reviewing application code for unsafe DOM manipulation
 
 # NOTES
-XSS targets users, not the server directly
-It exploits poor input handling and output rendering
-It can compromise user data and sessions
-Proper validation and encoding are critical defenses
+- XSS targets users, not the server directly
+- It exploits poor input handling and output rendering
+- It can compromise user data and sessions
+- Proper validation and encoding are critical defenses
 
 # References
 OWASP Top 10 – Cross-Site Scripting (XSS)
