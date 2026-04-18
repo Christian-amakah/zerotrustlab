@@ -26,6 +26,7 @@ The scan identified multiple open ports associated with publicly accessible serv
 
 - Web services (HTTP/HTTPS)
 - Remote access or auxiliary services
+  
 These services indicate that the system is actively providing network-accessible functionality.
 
 ## Risk Analysis
@@ -39,10 +40,11 @@ Service version detection can provide attackers with information needed to ident
 Each open port represents a potential entry point that could be probed or exploited.
 
 ## Connection to web Vulnerabilities
-The identified web services may be susceptible to application-layer attacks such as:
+The identified web services may be prone to application-layer attacks such as:
 
 - SQL Injection (SQLi) → If backend input handling is insecure
 - Cross-Site Scripting (XSS) → If user input is not properly sanitized
+  
 These vulnerabilities are explored in related projects within this repository.
 
 ## Potential Threats
