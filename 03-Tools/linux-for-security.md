@@ -12,10 +12,6 @@ To demonstrate essential Linux commands used in cybersecurity for navigation, fi
 
 ## Essential Commands
 # Navigation
-- pwd
-- ls
-- cd
-
 - pwd- Shows current directory
 - ls- Lists files and directories
 - cd- Changes directory 
@@ -31,7 +27,7 @@ To demonstrate essential Linux commands used in cybersecurity for navigation, fi
 - ls -l
 
 chmod- Modify file permissions
-- ls -l - View permissions
+- ls -l  View permissions
 
 # Viewing File Content
 - cat file.txt
