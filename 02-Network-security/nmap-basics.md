@@ -51,7 +51,7 @@ nmap -sV scanme.nmap.org
 
 ## Scan output
 
-![Nmap Scan](../assets/nmap-scan-real.png)
+![Nmap Scan](../Assets/nmap-scan-real.png)
 
 ## Analysis of Result
 The scan revealed multiple open ports and active services:
