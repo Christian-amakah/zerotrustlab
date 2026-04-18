@@ -42,6 +42,27 @@ Note: Sample results are used for demonstration purposes.
 - Port 80 (HTTP)-Web server, possible exposure to vulnerabilities like XSS or SQL Injection
 - Port 443 (HTTPS)- Encrypted service, should be checked for SSL/TLS misconfiguration
 
+## Live Scan Execution
+A real scan was performed on an authorized public test server.
+- Target: scanme.nmap.org
+
+## Command Used
+nmap -sV scanme.nmap.org
+
+## Scan output
+
+![Nmap Scan](../assets/nmap-scan-real.png)
+
+## Analysis of Result
+The scan revealed multiple open ports and active services:
+
+- Open ports indicate accessible services on the target
+- Service detection provides insight into software versions
+- These services represent potential entry points for attackers
+
+## Insight
+This demonstrates how reconnaissance is performed in real-world scenarios to identify attack surfaces before exploitation.
+
 # Security Implications
 - Open ports increase attack surface
 - Exposed services may contain vulnerabilities
