@@ -1,45 +1,73 @@
-# About Me:
-I am building practical cybersecurity skills in network security, ethical hacking, and defensive analysis through hands on learning and research.
+## About Me:
+I am an aspiring cybersecurity professional building hands-on skills in:
 
-## What This Repository Contains:
-- cybersecurity research and notes,
-- Hands-on labs and writeups,
-- Security tools and command usage,
-- Real-world attack and defense concepts.
+- Network Security
+- Web Application Security
+- Vulnerability Assessment
+- Security Analysis
+This repository documents my journey from foundational knowledge to practical execution.
 
-## Repository Structure
-This repository is organized into focused areas of cybersecurity:
+## Objectives
+- Understand core cybersecurity concepts
+- Perform real-world security testing
+- Document vulnerabilities and mitigation strategies
 
-**Web-Security/** Web vulnerabilities and exploitation concepts  
-**Network-Security/** Network scanning and enumeration projects  
-**Tools/** Documentation of cybersecurity tools and usage  
-**Notes/** Core cybersecurity concepts and research  
-**assets/** Screenshots and supporting materials 
+## Lab Structure
+*ZEROTRUSTLAB*
+## 01-Web-security
+- dvwa-security-testing.md
+- xss.md
+- sql-injection.md
 
-# Current Projects:
-- Understanding key concepts like:
-- SQL injection
-- Cross-site Scripting (XSS)
-- Authentication & Access control (IN PROGRESS).
+## 02-Network-security
+- Network-security-assessment.md
+- Nmap-basics.md
 
-# Tools and Commands:
+## 03-Tools
+- Linux-for-security
+
+## Assets
+
+## Featured Projects
+## Web Application Security Testing (DVWA)
+- Performed SQL Injection and XSS attacks in a controlled environment
+- Demonstrated real exploitation with screenshots
+- Analyzed impact and prevention Techniques
+
+## Network Scanning and Assessment
+- Conducted reconnaissance using Nmap
+- Identified open ports and services
+- Evaluated potential security risks
+
+## Tools & Technologies 
 - Nmap
-- Linux commands
-- basic enumeration techniques
+- DVWA
+- XAMPP
+- Linux Command Line
+- GitHub
 
-# Security Research:
-Breaking down how attacks work and how to prevent them.
+## Skills Demonstrated
+- Vulnerability Identification
+- Exploitation Techniques
+- Network Reconnaissance
+- Security Analysis
+- Technical Documentation
 
-# Current Focus:
-- Learning core cybersecurity concepts,
-- Practicing network scanning and enumeration,
-- Building a strong foundation in linux,
-- Developing documentation skills.
+## Future Improvements
+- Advanced vulnerability testing (CSRF, authentication bypass)
+- Deeper network enumeration
+- Real-world case studies
+- Security automation scripts
+
+## Portfolio
+
+
+## Philosophy
+Security is not just about tools, it’s about understanding systems, identifying weaknesses, and thinking like both attacker and defender.
 
 # Contact:
 - Email: Christianamakah@gmail.com,
 - Location: Lagos, Nigeria.
 
 # Disclaimer:
-All activities and projects in this repository are conducted in controlled environment for educational purposes only.
- 
+This repository is for educational purposes only. All testing is performed in controlled and authorized environments.
