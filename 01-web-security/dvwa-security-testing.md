@@ -11,10 +11,10 @@ To identify and exploit SQL Injection and Cross-Site Scripting (XSS) vulnerabili
 - Security Level: Low
 
 ## SQL injection (SQLi)
-# Payload Used
+## Payload Used
 1' OR '1'='1
 
-# Result
+## Result
 ../Assets/sqli-dvwa1.png
 
 ## Analysis
@@ -30,25 +30,25 @@ The payload alters the SQL query logic by injecting a condition that always eval
 # Payload Used
 <script>alert('Your account has been hacked!')</script>
 
-# Result 
+## Result 
 ../Assets/xss-reflected.png
 
-# Analysis
+## Analysis
 The payload is immediately reflected in the server response and executed in the browser, indicating that user input is not properly sanitized.
 
-# Stored XSS
-# payload Used
+## Stored XSS
+## payload Used
 - Name Field: Hacker
 - Message Field:
 <script>alert('You have been hacked!')</script>
 
-# Result
+## Result
 ../Assets/xss-stored.png
 
-# Analysis
+## Analysis
 The payload is stored within the application and executed whenever the page is loaded. This demonstrates persistent XSS, where malicious scripts can affect multiple users over time.
 
-# My Observation
+## My Observation
 Stored XSS is more dangerous than reflected XSS because it persists in the application and can impact all users who access the affected page.
 
 ## Prevention Technique 
