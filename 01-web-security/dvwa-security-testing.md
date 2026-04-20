@@ -15,7 +15,7 @@ To identify and exploit SQL Injection and Cross-Site Scripting (XSS) vulnerabili
 1' OR '1'='1
 
 ## Result
-![SQL injection](../assets/sqli-dvwa1.png)
+![SQL injection](../Assets/sqli-dvwa1.png)
 
 ## Analysis
 The payload alters the SQL query logic by injecting a condition that always evaluates to TRUE. This causes the application to return multiple records instead of a single user.
@@ -31,7 +31,7 @@ The payload alters the SQL query logic by injecting a condition that always eval
 <script>alert('Your account has been hacked!')</script>
 
 ## Result 
-![Reflected XSS](../assets/xss-reflected.png)
+![Reflected XSS](../Assets/xss-reflected.png)
 
 ## Analysis
 The payload is immediately reflected in the server response and executed in the browser, indicating that user input is not properly sanitized.
@@ -43,7 +43,7 @@ The payload is immediately reflected in the server response and executed in the 
 <script>alert('You have been hacked!')</script>
 
 ## Result
-![Stored XSS](../assets/xss-stored.png)
+![Stored XSS](../Assets/xss-stored.png)
 
 ## Analysis
 The payload is stored within the application and executed whenever the page is loaded. This demonstrates persistent XSS, where malicious scripts can affect multiple users over time.
