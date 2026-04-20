@@ -60,7 +60,7 @@ This repository documents my journey from foundational knowledge to practical ex
 - Security automation scripts
 
 ## Portfolio
-
+http://github.com/zerotrustlab
 
 ## Philosophy
 Security is not just about tools, it’s about understanding systems, identifying weaknesses, and thinking like both attacker and defender.
