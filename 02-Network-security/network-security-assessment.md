@@ -58,7 +58,7 @@ These vulnerabilities are explored in related projects within this repository.
 - Regularly update and patch all exposed services
 - Implement secure configurations for web servers
 - Conduct regular vulnerability assessments and testing
-- Monitor network traffic for suspicious activity
+- Monitor network traffic for suspicious activities
 
 ## Conclusion
 - This assessment demonstrates how basic reconnaissance can reveal critical information about a system’s exposure.
