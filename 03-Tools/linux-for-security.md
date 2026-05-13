@@ -14,7 +14,7 @@ To demonstrate essential Linux commands used in cybersecurity for navigation, fi
 # Navigation
 - pwd- Shows current directory
 - ls- Lists files and directories
-- cd- Changes directory 
+- cd- Changes directory
 
 # File Management
 - touch file.txt
