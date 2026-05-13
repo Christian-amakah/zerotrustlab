@@ -32,7 +32,7 @@ XSS attacks can lead to:
 # How/ways to Prevent 
 To prevent XSS vulnerabilities:
 
-- Validate and sanitize all user input
+- Validate and sanitize all user inputs
 - Encode output before rendering in the browser
 - Use Content Security Policy (CSP)
 - Avoid directly inserting user input into HTML/JavaScript
