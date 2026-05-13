@@ -13,7 +13,7 @@ This repository documents my journey from foundational knowledge to practical ex
 - Document vulnerabilities and mitigation strategies
 
 ## Lab Structure
-*ZEROTRUSTLAB*
+ZEROTRUSTLAB
 ## 01-Web-security
 - dvwa-security-testing.md
 - xss.md
