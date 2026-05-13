@@ -9,7 +9,7 @@ exposed services from a security perspective.
 # Key Note
 - Port Communication endpoint (e.g., 80 for HTTP)
 - Open Port Accepting connections
-- Closed Port No active service
+- Closed Port No active services
 - Filtered Port Blocked by firewall
 
 # Common Commands
