@@ -27,7 +27,7 @@ nmap -A 192.168.1.1
 
 # Scan Scenario
 - Target: Local test environment (e.g., 192.168.1.1)
-- Purpose: Identify open ports and running services
+- Purpose: Identify open ports and running services.
 
 Note: Sample results are used for demonstration purposes.
 
