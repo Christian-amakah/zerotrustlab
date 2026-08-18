@@ -5,7 +5,7 @@ I am an aspiring cybersecurity professional building hands-on skills in:
 - Web Application Security
 - Vulnerability Assessment
 - Security Analysis
-This repository documents my journey from foundational knowledge to practical execution.
+This repository documents my journey from foundational knowledge to practical execution
 
 ## Objectives
 - Understand core cybersecurity concepts
