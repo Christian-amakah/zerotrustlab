@@ -3,7 +3,7 @@ Cross-Site Scripting (XSS) is a web application vulnerability that allows attack
 These scripts are executed in the victim’s browser, making it possible to steal data or manipulate user sessions.
 
 # How it works
-Web applications that accept user input without proper validation may allow attackers to inject JavaScript code into pages.
+Web applications that accept user input without proper validation may allow attackers to inject JavaScript code into pages
 
 Example:
 <script>alert('XSS')</script>
