@@ -59,4 +59,4 @@ Stored XSS is more dangerous than reflected XSS because it persists in the appli
 - Regularly test applications for vulnerabilities
 
 ## Conclusion
-This project demonstrates how common web vulnerabilities can be exploited in a real environment. It highlights the importance of secure coding practices and proper input validation in preventing/mitigating attacks.
+This project demonstrates how common web vulnerabilities can be exploited in a real environment. It highlights the importance of secure coding practice and proper input validation in preventing/mitigating attacks.
