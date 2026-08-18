@@ -19,7 +19,7 @@ This approach provides visibility into:
 
 - Accessible services
 - Service versions
-- Potential attack surfaces
+- Potential attack surfaces.
 
 ## Findings
 The scan identified multiple open ports associated with publicly accessible services, including:
