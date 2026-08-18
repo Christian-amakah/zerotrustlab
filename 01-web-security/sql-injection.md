@@ -51,7 +51,7 @@ You can identify SQL injection vulnerabilities by using:
 - Manual testing with payloads
 - Automated tools (e.g., SQLmap)
 - Code review for unsafe query construction
-- Monitoring unusual database queries
+- Monitoring unusual database queries.
 
 # NOTE
 - SQL Injection exploits improper input handling
